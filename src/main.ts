@@ -131,7 +131,7 @@ const tick = () => {
     spriteTexture.offset.x =
       spriteTexture.offset.x === 1 - 1 / tilesHoriz
         ? 0
-        : spriteTexture.offset.x + 0.25
+        : spriteTexture.offset.x + 1 / tilesHoriz
   }
 
   // Update controls
